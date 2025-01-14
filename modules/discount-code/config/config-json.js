@@ -38,13 +38,13 @@ module.exports = function configJSON(req) {
     },
     configurationArguments: {
       publish: {
-        url: `https://${req.headers.host}/modules/discount-code/publish`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/publish`
       },
       validate: {
-        url: `https://${req.headers.host}/modules/discount-code/validate`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/validate`
       },
       stop: {
-        url: `https://${req.headers.host}/modules/discount-code/stop`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/stop`
       }
     },
     userInterfaces: {
