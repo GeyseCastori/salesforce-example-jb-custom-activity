@@ -29,16 +29,16 @@ module.exports = function configJSON(req) {
     },
     configurationArguments: {
       save: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/save`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/save`
       },
       publish: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/publish`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/publish`
       },
       validate: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/validate`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/validate`
       },
       stop: {
-        url: `https://${req.headers.host}/modules/discount-redemption-split/stop`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/stop`
       }
     },
     userInterfaces: {
