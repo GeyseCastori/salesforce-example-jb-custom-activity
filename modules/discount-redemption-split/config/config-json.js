@@ -24,7 +24,7 @@ module.exports = function configJSON(req) {
         outArguments: [],
         // Fill in the host with the host that this is running on.
         // It must run under HTTPS
-        url: `https://${req.headers.host}/modules/discount-redemption-split/execute`
+        url: `https://salesforce-example-jb-custom-activity.onrender.com/execute`
       }
     },
     configurationArguments: {
